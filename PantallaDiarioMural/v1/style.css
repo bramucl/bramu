@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.html-vitrina
+{
+ vertical-align: middle;
+ height: 100%;
+ width: 100%;
+ max-height: 100%;
+ max-width: 100%;
+ margin-top: 0px;
+ margin-left: 0px;
+    
+}
+.body
+{
+    background: #D6D7D8;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.contenedor1
+{
+    width: 100%;
+    height: 80%;
+    
+    
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.contenedor2
+{
+    width: 100%;
+    height: 20%;
+    
+    background: linear-gradient(rgb(47, 150, 163), rgb(48,62,143));
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.box1
+{
+    width: 70%;
+    height: 100%;
+    background-image: url("http://escuelaac.bramu.cl/pruebas/images/bgmanzanas.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    
+    padding: 0px;
+    margin: 0px;
+}
+.box2
+{
+    width: 30%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    
+    padding: 0px;
+    margin: 0px;
+}
+.box3
+{
+    width: 35%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    
+    padding: 0px;
+    margin: 0px;
+}
+.box4
+{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.box5
+{
+    width: 30%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    text-shadow: gray;
+    padding: 0px;
+    margin: 0px;
+}
+.wrap{
+    width: 100%;
+    
+    /*margin:auto;*/
+   }
+
+   .widget{
+    width: 90%;
+   height: 90%;
+    /*margin:32px;*/
+    
+   }
+
+   .widget p {
+    display: inline-block;
+    line-height: 1em;
+   }
+
+   .fecha {
+    font-family: Oswald, Arial;
+    color: #f1f2f6;
+    text-align:right;
+    text-align: end;
+    font-size: 1.2vw;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    height: 50%;
+    padding: 0px;
+    width: 100%;
+   }
+
+   .reloj{
+    font-family: Oswald, Arial;
+    width: 100%;
+    height: 50%;
+    
+    color: #f1f2f6;
+    padding: 0px;
+    font-size: 3.8vw;
+    text-align: right;
+    }
+
+   .reloj .caja-segundos{
+    display: inline-block;
+   }
+
+   .reloj .segundos, .reloj .ampm{
+    font-size: 1.5vw;
+    display: block;
+   }
+   .location, .temperature{
+       height: 30vh;
+       width: 50%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+   .temperature{
+       flex-direction: column;
+   }
+   .degree-section{
+       display: flex;
+       align-items: center;
+       cursor: pointer;
+   }
+   .degree-section span {
+       margin: 10px;
+       font-size: 30px;
+   }
+   .degree-section h2 {
+       font-size: 40px;
+   }
